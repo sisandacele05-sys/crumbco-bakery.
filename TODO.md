@@ -1,0 +1,10 @@
+# Bakery website
+
+- [x] Home page featuring the Crumb & Co. bakery name and a welcoming introduction. Implemented in `Views/Home/Index.cshtml`; homepage HTTP 200 and meaningful H1 verified.
+- [x] About Us page explaining the bakery, its story, and its artisan approach. Implemented in `Views/Home/About.cshtml`; route HTTP 200 verified.
+- [x] Our Products page presenting cakes, bread, cupcakes, and pastries with prices; category browsing and product-specific order enquiries. Eight sample products, four categories, server-side filtering and preselected enquiries verified over HTTP.
+- [x] Gallery page displaying photographs of baked goods in an appealing responsive layout. Five generated photographs, native dialog enlargement, keyboard-close behavior and responsive layouts implemented.
+- [x] Contact Us page showing contact details and opening hours; clearly identified editable sample business details. Contact route HTTP 200, sample disclosure and full weekly hours implemented.
+- [x] Order Enquiries page or call-to-action linking customers directly to WhatsApp to discuss an order. The sample phone number must not send enquiries to an unverified real recipient; enable real WhatsApp links when the owner configures their number. Client-side message preparation and review implemented; validated `wa.me` construction enabled by a configured number. Safe demo mode confirmed. A real recipient is intentionally not configured because none was supplied.
+- [x] Responsive navigation and page layouts that work across desktop and mobile screens. Mobile menu, 720px/380px responsive rules, two-column mobile product cards, reduced-motion support and focus styles implemented.
+- [x] Reusable C#, ASP.NET Core MVC, HTML and CSS structure for Visual Studio 2022, with shared styling that can be adapted for other small-business websites. No database, shopping cart, or online payments. .NET 8 build succeeds with zero warnings/errors; portable source ZIP includes the solution, README and five local photos. Real six-route manifest and HTTP 404 behavior verified.
